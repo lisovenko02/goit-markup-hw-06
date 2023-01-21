@@ -217,6 +217,7 @@ color:var(--acent-color)
     cursor:pointer;
 }
 .hero-button {
+    margin-top: 30px;
     padding: 16px 32px;
     gap: 10px;
     border-radius: 4px;
@@ -736,6 +737,12 @@ border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
 
+.close:hover, .close:focus {
+   background-color: var(--cornflower);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border: 4px;
+}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -822,6 +829,7 @@ position: relative;
 }
 
 .form-input-icon {
+    fill:var(--title-text-color);
     position: absolute;
     top: 50%;
     left: 16px;
